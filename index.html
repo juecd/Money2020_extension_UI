@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Giftly Marketplace</title>
+	<link rel = "stylesheet" type = "text/css" href = "./css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+	<!-- spinner -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="/js/spinners/excanvas.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="./js/spinners/spinners.js"></script>
+    <script type="text/javascript" src="./js/spinners/gui.js"></script>
+</head>
+<body>
+	<div class = "c_body" id = "c_body">
+		<div class = "c_centeredimg" id = "c_headerimg">
+			<img src = "./img/test.png" height = "40" width = "40">
+		</div>
+
+		<!-- Screen 1 CAT ONLY -->
+<!-- 		<div class = "body_content_basics" id = "c_centeredtext_body">
+			<p>searching for gift cards for</p>
+			<h4>amazon.com</h4>
+			<div class = "c_centeredimg" id = "c_large_spinner_div">
+				<div id = "spinner"></div>
+			</div>
+		</div> -->
+
+
+		<!-- Screen 2 ASHWIN EDIT-->
+		<div class = "body_content_basics" id = "c_returnedgcarr">
+			<div class = "gcs body_content_basics" id = "c_returnedgcarr_header">
+				<table id = "gcs_header">
+					<tr>
+						<th class = "c_returnedgcarr_header_text">value</th>
+						<th class = "c_returnedgcarr_header_text">price</th>
+					</tr>
+				</table>
+			</div>
+			<div class = "gcs body_content_basics" id = "c_returnedgcarr_row">
+				<table id = "gcs_row">
+					<tr>
+						<th id = "gcs_row_img"><span class = "gcs_img_helper"></span><img src = "./img/gc_img.png" class = "gc_img" /></th>
+						<th class = "gcs_row_checkmark">
+							<div class = "hidden" id = "spinner_extrasmall"></div>
+							<img src = "./img/gcs_row_checkmark.png" class = "gcs_row_checkmark_loading_checkmark hidden">
+						</th>
+						<th class = "gcs_row_text" id = "gcs_row_text_value">$45</th>
+						<th class = "gcs_row_text" id = "gcs_row_text_price">$40</th>
+					</tr>
+				</table>
+			</div>
+			<div class = "gcs body_content_basics" id = "c_returnedgcarr_row">
+				<table id = "gcs_row">
+					<tr>
+						<th id = "gcs_row_img"><span class = "gcs_img_helper"></span><img src = "./img/gc_img.png" class = "gc_img" /></th>
+						<th class = "gcs_row_checkmark">
+							<div class = "hidden" id = "spinner_extrasmall"></div>
+							<img src = "./img/gcs_row_checkmark.png" class = "gcs_row_checkmark_loading_checkmark hidden">
+						</th>
+						<th class = "gcs_row_text" id = "gcs_row_text_value">$45</th>
+						<th class = "gcs_row_text" id = "gcs_row_text_price">$40</th>
+					</tr>
+				</table>
+			</div>
+			<div class = "gcs body_content_basics" id = "c_returnedgcarr_row">
+				<table id = "gcs_row">
+					<tr>
+						<th id = "gcs_row_img"><span class = "gcs_img_helper"></span><img src = "./img/gc_img.png" class = "gc_img" /></th>
+						<th class = "gcs_row_checkmark">
+							<div class = "hidden" id = "spinner_extrasmall"></div>
+							<img src = "./img/gcs_row_checkmark.png" class = "gcs_row_checkmark_loading_checkmark hidden">
+						</th>
+						<th class = "gcs_row_text" id = "gcs_row_text_value">$45</th>
+						<th class = "gcs_row_text" id = "gcs_row_text_price">$40</th>
+					</tr>
+				</table>
+			</div>
+			<div class = "c_centeredimg" id = "c_returnedgcarr_loading">
+				<div id = "spinner_small" class = "hidden"></div>
+			</div>
+			<div id = "c_returnedgcarr_totaldiscount">
+				<hr/>
+				<p class = "c_returnedgcarr_header_text" id = "c_returnedgcarr_totaldiscount_totaltext">total discount:</p>
+				<p id = "c_returnedgcarr_totaldiscount_discounttext">2%<p>
+			</div>
+			<div id = "c_applybutton">
+				<button type = "submit" id = "c_applybutton_button">apply</button>
+			</div>
+		</div>
+
+		<!-- Screen 3 ASHWIN EDIT-->
+		<div id = "c_centeredtext_body">
+			<h4>Success!</h4>
+			<p>You received an 8% discount on amazon.com</p>
+			<div class = "c_centeredimg"><img class = "c_successscreen_checkmark" src="./img/gcs_row_checkmark.png"></div>
+		</div>
+	</div>
+</body>
+</html>
